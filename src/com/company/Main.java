@@ -14,10 +14,12 @@ public class Main {
         String countFix = "";
 
 
+
         try {
             BufferedReader br = new BufferedReader(new FileReader("functions.txt"));
             BufferedWriter bwCount = new BufferedWriter(new FileWriter("count.txt"));
             BufferedWriter bwDistinct = new BufferedWriter(new FileWriter("count_distinct.txt"));
+            String line;
 
             while ((arrayNew.function = br.readLine()) != null) {
                 funkce.add(arrayNew.function);
